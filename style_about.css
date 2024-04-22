@@ -102,6 +102,7 @@ section {
     margin: auto;
     padding: auto;
     background-color: white;
+    box-shadow: 0 0 3px #ffff;
 }
 
 .social {
