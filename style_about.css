@@ -102,7 +102,6 @@ section {
     margin: auto;
     padding: auto;
     background-color: white;
-    drop-shadow: 0 0 3px #ffffff;
 }
 
 .social {
@@ -348,12 +347,94 @@ section {
   color: #ffffff;
 }
 
+.container-fluid {
+  height: 100%;
+}
+
+.container-fluid {
+  margin: 5;
+  font-family: "Euclid Circular A", "Poppins";
+  background: #000000;
+  color: #1a1a1a;
+}
+
+
+.banner,
+.head1,
+button {
+  transition: 0.6s;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  background: url("bg.jpg");
+  background-size: 100%;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.banner .head1 {
+  font-size: 50px;
+  color: #000000;
+  text-shadow: #ffffff;
+}
+
+.banner button {
+  padding: 16px 26px;
+  border-radius: 50px;
+  border: 1 ;
+  background: rgba(0, 0, 0, 0.151);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-size: 20px;
+  font-family: inherit;
+}
+
+.container1::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: -40px;
+  left: -25vw;
+  width: 150vw;
+  height: 180px;
+  rotate: -2deg;
+  background: inherit;
+}
+
+.container1 {
+  position: relative;
+  background: #00000000;
+  color: #ffffff;
+  padding: 30px 15%;
+}
+
+.head2,
+p {
+  position: relative;
+  z-index: 1;
+}
+
+.head2 {
+  font-size: 28px;
+}
+
+p {
+  opacity: 0.5;
+}
+
+
 /*FOOTER*/
 footer {
   position: absolute;
   background: #000000;
   width: 100%;
-   left: 0;
+  left: 0;
 }
 footer::before {
   content: "";
