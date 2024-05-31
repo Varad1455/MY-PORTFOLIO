@@ -5,7 +5,7 @@ const head1 = document.querySelector(".head1"),
 const onScroll = (event) => {
   const scrollPosition = event.target.scrollingElement.scrollTop;
   if (scrollPosition > 90) {
-    banner.style.backgroundSize = "150%";
+    banner.style.backgroundSize = "110%";
     head1.style.opacity = 0;
     head1.style.translate = "0 -50px";
     head1.style.scale = "0.9";
